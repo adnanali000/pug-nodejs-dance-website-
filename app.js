@@ -1,5 +1,4 @@
 const express = require('express');
-const fs = require('fs');
 const path = require('path');
 const app = express();
 const port = 8080;
@@ -15,8 +14,7 @@ app.set('views',path.join(__dirname,'views'));
 
 //endpoint
 app.get('/',(req,res)=>{
-    const cont = 'dance website content';
-    const params = {'title':'dancing site','content':cont};
+    const params = {};
     res.status(200).render('index.pug',params);
 })
 
@@ -24,3 +22,4 @@ app.get('/',(req,res)=>{
 app.listen(port,()=>{
     console.log(`The website is started on port ${port}`);
 })
+ 

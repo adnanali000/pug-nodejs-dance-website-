@@ -1,0 +1,41 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: dimgrey;
+    height: 50px;
+    padding: 13px 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li a{
+    text-decoration: none;
+    cursor :pointer;
+    padding: 5px 10px;
+}
+
+#navbar li{
+    list-style: none;
+}
+#intro{
+    height: 200px;
+    background-color: cornflowerblue;
+
+}
+#info{
+    height: 200px;
+    background-color: dodgerblue;
+}
+#footer{
+    height: 50px;
+    background-color: dimgrey;
+
+}
