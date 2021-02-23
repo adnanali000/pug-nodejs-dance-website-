@@ -7,7 +7,19 @@
     font-family: 'Akaya Telivigala', cursive;
 
 }
-
+#logo{
+    align-items: center;
+    display: flex;
+    margin: 0px 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+#logo img{
+    
+    height: 35px;
+    filter: invert(1);
+    background-color: grey;
+}
 #navbar{
     background-color: dimgrey;
     height: 50px;
@@ -16,7 +28,8 @@
 #navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 #navbar li a{
@@ -50,13 +63,15 @@
 }
 #mission{
     height: 300px;
-    background-color: darkcyan;
+    color: black;
     width: 65%;
     margin: auto;
 }
 #mission h2{
     text-align: center;
     padding-top: 10px;
+    color: black;
+    
 }
 .card{
     border: 2px solid black;
@@ -70,7 +85,21 @@
 .card h3{
     text-align: center;
     margin: 10px;
+    align-items: center;
+
 }
+.cardimg{
+    height: 100px;
+}
+.cardimg img{
+    height: inherit;
+    filter: invert(1);
+
+}
+.card-content p{
+    text-align: center;
+}
+
 #info{
     height: 260px;
     background-color: dodgerblue;
