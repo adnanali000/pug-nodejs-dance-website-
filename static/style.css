@@ -48,6 +48,29 @@
 #intro div.small{
     font-size: 20px;
 }
+#mission{
+    height: 300px;
+    background-color: darkcyan;
+    width: 65%;
+    margin: auto;
+}
+#mission h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(8, 8, 37);
+    width: 28%;
+    height: 200px;
+    margin: 15px 20px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
 #info{
     height: 260px;
     background-color: dodgerblue;
