@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 *{
     color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+
 }
 
 #navbar{
@@ -19,23 +22,42 @@
 #navbar li a{
     text-decoration: none;
     cursor :pointer;
-    padding: 5px 10px;
+    padding: 13px 30px;
+    font-size: 20px;
 }
+#navbar li a:hover{
+    background-color: black;
+    font-weight: bold;
 
+}
 #navbar li{
     list-style: none;
 }
 #intro{
-    height: 200px;
+    padding-bottom: 40px;
+    height: 300px;
     background-color: cornflowerblue;
+    background: center/cover no-repeat url('../static/dance.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 
 }
+#intro div.small{
+    font-size: 20px;
+}
 #info{
-    height: 200px;
+    height: 260px;
     background-color: dodgerblue;
+}
+#info h2{
+    text-align: center;
+    padding-top: 10px;
 }
 #footer{
     height: 50px;
     background-color: dimgrey;
-
+    text-align: center;
 }
