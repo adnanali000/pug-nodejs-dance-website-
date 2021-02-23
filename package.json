@@ -1,0 +1,23 @@
+{
+  "name": "adnan-dance-website",
+  "version": "1.0.0",
+  "description": "This acadmey provide different catagory of dancers ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanali000/pug-nodejs-dance-website-.git"
+  },
+  "author": "adnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adnanali000/pug-nodejs-dance-website-/issues"
+  },
+  "homepage": "https://github.com/adnanali000/pug-nodejs-dance-website-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
