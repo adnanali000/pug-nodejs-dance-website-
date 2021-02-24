@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 8000;
+const port = 8010;
 
 //express work
 app.use('/static',express.static('static'));
@@ -15,7 +15,12 @@ app.set('views',path.join(__dirname,'views'));
 //endpoint
 app.get('/',(req,res)=>{
     const params = {};
-    res.status(200).render('index.pug',params);
+    res.status(200).render('home.pug',params);
+})
+
+app.get('/contact',(req,res)=>{
+    const params = {};
+    res.status(200).render('contact.pug',params);
 })
 
 //server start

@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content    
+    section#intro
+        div Welcome to adnan dance acadmey
+        div.small   Come let's dance together.
+    section#mission
+        h2 Our Mission
+        div.card
+            h3 Wedding Dance
+             div.card-box
+                div.cardimg
+                    img(src='/static/images/img3.png')
+                div.card-content
+                    p Best dance acadmey    
+        div.card
+            h3 Belly Dance
+             div.card-box
+                div.cardimg
+                    img(src='/static/images/img4.png')
+                div.card-content
+                    p Best dance acadmey    
+        div.card
+            h3 Belly Dance
+             div.card-box
+                div.cardimg
+                    img(src='/static/images/img2.png')
+                div.card-content
+                    p Best dance acadmey                
+    section#info
+        h2 Our Sponsers
+        div#sponsers
+            img(src='/static/images/spo1.png',alt='sponser image',class='spoImage')
+            img(src='/static/images/spo2.png',alt='sponser image',class='spoImage')
+            img(src='/static/images/spo3.png',alt='sponser image',class='spoImage')
